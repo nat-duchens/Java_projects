@@ -44,6 +44,26 @@ public class OperadoresComparacion {
         //Expresiones para comparar palabras
         System.out.println("comparamos ambas variables String con el operador de igualdad y obtenemos = " + (palabraUno == palabraDos));
         System.out.println("comparamos ambas variables String con el método de la clase String .equals() y obtenemos = " + palabraUno.equals(palabraDos));
+
+        /*** OPERADORES LÓGICOS ***/
+        //Estos operadores nos permiten combinar más de una expresión
+        /*
+         *  &&(y lógico) -> Permite evaluar ambas condiciones de manera inclusiva
+         *  ||(o lógico) -> Permite evaluar si una de las dos condiciones es verdadera, para que la expresión sea verdadera
+         *  !(not o negación) -> Permite cambiar el valor de una expresión o un valor boolean
+         * */
+
+        boolean combinacionDeComparacionesNumericas = ((numeroUno <= numeroDos ) && (numeroUno == numeroDos));
+        System.out.println("El resultado de combinar ambas evaluaciones es: " + combinacionDeComparacionesNumericas);
+
+        boolean combinacionDeComparacionesDePalabras = (palabraUno.equals(palabraDos) && palabraUno.equalsIgnoreCase(palabraDos));
+        System.out.println("El resultado de combinar ambas comparaciones en Strings es: " + combinacionDeComparacionesDePalabras);
+
+        boolean combinacionDePosibilidades = (palabraUno.equalsIgnoreCase("hola") || palabraDos.equals("Mundo"));
+        System.out.println("El resultado de combinar ambas posibilidades es: " + combinacionDePosibilidades);
+
+        System.out.println("El resultado de negar a través del operador not(!) es el siguiente: " + !combinacionDePosibilidades);
+
     }
 
 }
