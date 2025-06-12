@@ -36,7 +36,16 @@ public class AssignmentOperators { //Here it is defined a class scope
         System.out.println(numberOne *= numberTwo); //Ex. numberOne(5) and numberTwo(2) -> 10
         System.out.println(numberOne /= numberTwo); //Ex. numberOne(10) and numberTwo(2) -> 5
 
+        System.out.println("Now the first number is equivalent to: " + numberOne);
+        //System.out.println("Now the second number is equivalent to: " + numberTwo);
 
+        //** Increments and Decrements **//
+        System.out.println("By doing a preincrement, numberOne is equivalent to: " + ++numberOne); //6
+        System.out.println("By doing a pos-increment, numberOne is equivalent to: " + numberOne++); //6 ++
+        System.out.println("Now numberOne is equivalent to: " + numberOne); //7
+        System.out.println("By doing a predecrement, numberTwo is equivalent to: " + --numberTwo); //1
+        System.out.println("By doing a pos-decrement, numberTwo is equivalent to: " + numberTwo--); //1 --
+        System.out.println("Now numberTwo is equivalent to: " + numberTwo); //0
 
 
 
