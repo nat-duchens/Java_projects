@@ -50,6 +50,29 @@ public class ComparisonOperators {
         //The == evaluates whether they have the same address and not the same content
         System.out.println("compare both string variables, with the string class method .equal(), and we obtain = " + wordOne.equals(wordTwo));
 
+        //**** Logic Operators ****//
+        //This operators allow us to combine more than one expression
+        /*
+        * && (logic and) -> It allows both conditions to be evaluated inclusively. Returns true if both expressions being combined are true.
+        * || (logic or) -> It allows us to evaluate whether one of the two conditions is true.
+        * ! (not) -> Inverts the Boolean value of an expression.
+        * ! -> If the expression is true, the ! operator returns false, and if the expression is false, the ! operator returns true.
+        */
+
+        boolean combinationNumericComparison = ((numberOne >= numberTwo) && (numberOne == numberTwo));
+        System.out.println("The result of the combination is: " + combinationNumericComparison);
+
+        boolean combinationWordsComparison = (wordOne.equals(wordTwo) && wordOne.equalsIgnoreCase(wordTwo));
+        System.out.println("The result of the combination of both words in String is: " + combinationWordsComparison);
+
+        boolean combinationPossibilities = (wordOne.equals("Hello") || wordTwo.equals("World"));
+        System.out.println("The result of the combination is: " + combinationPossibilities);
+        // equals() vs equalsIgnoreCase(), the first is case sensitive and the second not
+        boolean combinationPossibilities2 = (wordOne.equalsIgnoreCase("Hello") || wordTwo.equalsIgnoreCase("World"));
+        System.out.println("The result of the combination is: " + combinationPossibilities2);
+
+        System.out.println("The result of deny through not (!) is: " + !combinationPossibilities);
+
 
     }
 }
