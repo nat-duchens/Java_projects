@@ -16,7 +16,7 @@ public class ComparisonOperators {
         * != -> not equal to
         * */
 
-        //Variable a treaves de console
+        //Variables through the console
         Scanner keyBoard = new Scanner(System.in);
 
         //1. Defined our variables for comparison, through the console input
