@@ -1,7 +1,5 @@
-package C20120625;
+package C20120625_OperatorsTypes;
 
-import javax.swing.*;
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class ComparisonOperators {

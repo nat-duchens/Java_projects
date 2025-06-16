@@ -1,4 +1,4 @@
-package C20110625;
+package C20110625_DataTypes;
 
 public class Variables {
     //In this class i will analyze different tips of data in Java

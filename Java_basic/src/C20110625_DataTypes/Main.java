@@ -1,4 +1,4 @@
-package C20110625;
+package C20110625_DataTypes;
 
 import java.util.Scanner;
 

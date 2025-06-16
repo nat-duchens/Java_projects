@@ -1,4 +1,4 @@
-package C20120625;
+package C20120625_OperatorsTypes;
 
 import java.util.Scanner;
 
