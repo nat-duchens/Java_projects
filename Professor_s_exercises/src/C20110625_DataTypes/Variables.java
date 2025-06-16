@@ -1,4 +1,4 @@
-package C20110625;
+package C20110625_DataTypes;
 
 public class Variables {
     //En esta clase vamos a analizar los distintos tipos de dato en Java

@@ -7,7 +7,7 @@ public class Ex_ELSEIF3 {
         String password = "<PASSWORD>";
 
         //With && (AND) both conditions must be met
-        //With || (OR) only one conditions must to be met
+        //With || (OR) only one conditions must be met
 
         if (user.equals("admin") && password.equals("123")){
             System.out.println("Welcome!");
