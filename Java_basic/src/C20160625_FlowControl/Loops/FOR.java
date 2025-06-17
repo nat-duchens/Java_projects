@@ -1,10 +1,10 @@
 package C20160625_FlowControl.Loops;
 
 public class FOR {
-    public static void main(String[] args) {
-
-        System.out.println("Basic counter");
-        System.out.println("Counting from 1 to 10");
+  public static void main(String[] args) {
+//
+//        System.out.println("Basic counter");
+//        System.out.println("Counting from 1 to 10");
 
         //** For loop **//
         //First column -> To declare (int i) and initialize (int i = 1) a variable -> int i = 1
