@@ -6,7 +6,7 @@ public class Main {
         // Métodos estáticos de la clase Calculadora
         int resultadoSuma = Calculadora.sumar(5, 3);  // 8
         int resultadoMultiplicacion = Calculadora.multiplicar(4, 2); // 8
-        int resultadoDivision = Calculadora.dividir(16, 2); // 8
+        double resultadoDivision = Calculadora.dividir(16, 2); // 8
         int resultadoResta = Calculadora.restar(10, 2); // 8
         int resultadoModulo = Calculadora.modulo(8, 2); // 0
 

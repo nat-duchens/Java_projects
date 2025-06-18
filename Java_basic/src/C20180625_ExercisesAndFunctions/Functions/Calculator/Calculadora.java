@@ -10,7 +10,11 @@ public class Calculadora {
         return a * b;
     }
 
-    public static int dividir(int a, int b) {
+    public static double dividir(double a, double b) {
+        if (b == 0) {
+            System.out.println("Error: División por cero");
+            return 0;
+        }
 
         return a / b;
     }
