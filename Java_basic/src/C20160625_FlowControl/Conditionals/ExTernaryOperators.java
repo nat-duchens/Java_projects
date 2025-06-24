@@ -1,4 +1,4 @@
-package C20160625_FlowControl;
+package C20160625_FlowControl.Conditionals;
 
 public class ExTernaryOperators {
     public static void main(String[] args) {

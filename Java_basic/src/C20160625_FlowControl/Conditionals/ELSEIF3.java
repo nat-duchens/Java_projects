@@ -1,6 +1,6 @@
-package C20160625_FlowControl;
+package C20160625_FlowControl.Conditionals;
 
-public class Ex_ELSEIF3 {
+public class ELSEIF3 {
     public static void main(String[] args) {
 
         String user = "admin";

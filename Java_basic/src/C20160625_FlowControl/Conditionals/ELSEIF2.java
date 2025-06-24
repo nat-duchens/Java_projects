@@ -1,6 +1,6 @@
-package C20160625_FlowControl;
+package C20160625_FlowControl.Conditionals;
 
-public class Ex_ELSEIF2 {
+public class ELSEIF2 {
     public static void main(String[] args) {
 
         int note = 65;
