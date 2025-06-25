@@ -1,4 +1,4 @@
-package C20250625_OOP_Team;
+package C20250625_OOP_NoteManager;
 
 public class Main {
 //    # Ejercicio: Actualización de Calificaciones

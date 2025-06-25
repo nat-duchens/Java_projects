@@ -1,4 +1,4 @@
-package C20250625_OOP_Team.Models;
+package C20250625_OOP_NoteManager.Models;
 
 public class Estudiante {
 
