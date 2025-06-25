@@ -16,7 +16,7 @@ public class AssignmentOperators { //Here it is defined a class scope
         * -- -> decrement, subtracts -1 from the current value of the variable
         * */
 
-        //Variables a través de console
+        //Variables through console
         Scanner keyBoard = new Scanner(System.in);
 
         //1. Ask the first number
