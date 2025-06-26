@@ -14,7 +14,7 @@ public class CineApp {
                 "*For children under 5, there's a 60% discount\n");
 
         //Ask for the user age
-        System.out.println("Indicate your age: ");
+        System.out.println("Indicate your age: "); //Ask the age
         int age = keyBoard.nextInt();
         int ticketPrice = 3500;
 
