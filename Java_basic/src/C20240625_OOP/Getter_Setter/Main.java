@@ -1,4 +1,4 @@
-package C20250625_Getter_Setter;
+package C20240625_OOP.Getter_Setter;
 
 public class Main {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Main {
         System.out.println(student1);
 
         //Result without toString()
-        //C20250625_Getter_Setter.Student@8efb846
+        //C20240625_OOP.Getter_Setter.Student@8efb846
 
         //Result with toString()
         //Student{name: 'Harry', age 27}

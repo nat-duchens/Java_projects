@@ -1,4 +1,4 @@
-package C20250625_Getter_Setter;
+package C20240625_OOP.Getter_Setter;
 
 public class Student {
 

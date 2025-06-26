@@ -1,4 +1,4 @@
-package C20240625_OOP;
+package C20240625_OOP.OOP;
 
 public class People {
 

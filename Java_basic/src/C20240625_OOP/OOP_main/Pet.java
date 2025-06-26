@@ -1,6 +1,6 @@
 package C20240625_OOP.OOP_main;
 
-import C20240625_OOP.Dog;
+import C20240625_OOP.OOP.Dog;
 
 public class Pet {
 
